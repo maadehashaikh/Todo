@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(36, 35, 35);
+}
+.todolist{
+    width: 45%;
+    height: 80vh;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: 2px solid rgb(169, 126, 169);
+}
+.todolist h1{
+    color: white;
+    margin-left: 180px;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text{
+    margin-left: 120px;
+    padding: 10px 20px;
+    border: 2px solid rgb(169, 126, 169);
+}
+#btn{
+     background-color: black;
+     color: white;
+     margin: 10px;
+     padding: 5px 12px;
+     border: 2px solid rgb(169, 126, 169);
+}
+#showContentDiv{
+    width: 88;
+    height: 45vh;
+    
+}
+#showcontent{
+    width: 85%;
+    height: 45vh;
+     margin-top: 18px;
+    margin-left: 22px;
+    overflow-y: auto;
+} 
+#showcontent li{
+    position: relative;
+    width: 85%;
+    padding: 5px ;
+    height: auto;
+    background-color: rgb(83, 79, 79);
+    border: 2px solid rgb(169, 126, 169);
+    margin-left: 10px;
+    list-style-type: none;
+}
+
